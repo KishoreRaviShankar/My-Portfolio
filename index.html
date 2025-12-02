@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore Ravishankar | Frontend Developer</title>
+    <!-- JSPDF Library for Resume Generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Kishore<span style="color:white">Dev</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal active">
+            <span class="hero-badge">Available for Work</span>
+            <h1>Kishore Ravishankar<br><span class="gradient-text">Web Developer</span></h1>
+            <p>Innovative Front End Developer with high productivity. Skilled in ReactJS, HTML, CSS, and modern web technologies. Adept at creating responsive, scalable, and user-centric applications.</p>
+            <div class="btn-group">
+                <!-- DOWNLOAD CV BUTTON -->
+                <button id="download-cv-btn" class="btn">Download CV <i class="fa-solid fa-download" style="margin-left: 8px;"></i></button>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header reveal">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">My professional journey so far.</p>
+        </div>
+        <div class="timeline-container reveal">
+            <!-- Job 1 -->
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <div>
+                        <div class="timeline-role">Front End Web Developer Intern</div>
+                        <div class="timeline-company">Pantech e-Learning</div>
+                    </div>
+                    <div class="timeline-date">Aug 2024</div>
+                </div>
+                <p class="timeline-desc">Enhanced food shopping cart webpage development through effective use of ReactJS. Created web application user interfaces with HTML, CSS, JavaScript, and ReactJS.</p>
+            </div>
+            
+            <!-- Job 2 -->
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <div>
+                        <div class="timeline-role">Front End Developer Internship</div>
+                        <div class="timeline-company">Sevol Software Solution Pvt. Ltd</div>
+                    </div>
+                    <div class="timeline-date">July 2023 - Aug 2023</div>
+                </div>
+                <p class="timeline-desc">Designed and developed a web page for Logistics and Transportation Services using HTML, CSS, and JavaScript. Gained hands-on experience in Front-end projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="section-header reveal">
+            <h2 class="section-title">Education</h2>
+        </div>
+        <div class="timeline-container reveal">
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <div>
+                        <div class="timeline-role">Bachelor of Engineering (CSE)</div>
+                        <div class="timeline-company">Loyola Institute of Technology, Chennai</div>
+                    </div>
+                    <div class="timeline-date">2021 - 2025</div>
+                </div>
+                <p class="timeline-desc">CGPA: 7.9</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <div>
+                        <div class="timeline-role">HSC (12th Standard)</div>
+                        <div class="timeline-company">Shri Krishnaswamy Mat. hr. sec. School</div>
+                    </div>
+                    <div class="timeline-date">Completed</div>
+                </div>
+                <p class="timeline-desc">Score: 87%</p>
+            </div>
+             <div class="timeline-item">
+                <div class="timeline-header">
+                    <div>
+                        <div class="timeline-role">SSLC (10th Standard)</div>
+                        <div class="timeline-company">Shri Krishnaswamy Mat. hr. sec. School</div>
+                    </div>
+                    <div class="timeline-date">Completed</div>
+                </div>
+                <p class="timeline-desc">Score: 86%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header reveal">
+            <h2 class="section-title">My Tech Stack</h2>
+            <p class="section-subtitle">Technologies I work with to bring ideas to life.</p>
+        </div>
+        <div class="skills-container reveal">
+            <span class="skill-tag"><i class="fa-brands fa-react"></i> ReactJs</span>
+            <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="skill-tag"><i class="fa-brands fa-java"></i> Java</span>
+            <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+            <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="skill-tag"><i class="fa-solid fa-layer-group"></i> Redux</span>
+            <span class="skill-tag"><i class="fa-brands fa-react"></i> React Native</span>
+            <span class="skill-tag"><i class="fa-brands fa-android"></i> Android Studio</span>
+            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="skill-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header reveal">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Projects listed in my resume.</p>
+        </div>
+
+        <div class="projects-controls reveal">
+            <button id="add-project-btn" class="add-project-trigger">
+                <i class="fa-solid fa-plus"></i> Add New Project
+            </button>
+        </div>
+        
+        <div class="projects-grid reveal" id="projects-grid">
+            <!-- JS Injection -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-card reveal">
+            <h3>Let's work together</h3>
+            <p style="color: var(--text-muted); margin-bottom: 30px;">
+                I'm currently looking for new opportunities. Whether you have a project in mind or just want to say hi, feel free to reach out!
+            </p>
+
+            <div class="contact-details">
+                <a href="mailto:kishoreravishankar471@gmail.com" class="contact-pill">
+                    <i class="fa-solid fa-envelope"></i> kishoreravishankar471@gmail.com
+                </a>
+                <a href="tel:+919025320883" class="contact-pill">
+                    <i class="fa-solid fa-phone"></i> +91 90253 20883
+                </a>
+            </div>
+            
+            <a href="mailto:kishoreravishankar471@gmail.com" class="btn" id="email-btn">Say Hello <i class="fa-regular fa-paper-plane" style="margin-left: 8px;"></i></a>
+
+            <div class="social-row">
+                <a href="https://github.com/KishoreRaviShankar" target="_blank" class="social-btn" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/kishore-ravishankar-031625269" target="_blank" class="social-btn" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kishore Ravishankar. Designed & Built with code.</p>
+    </footer>
+
+    <!-- ADD PROJECT MODAL -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content">
+            <h3 style="margin-bottom: 24px; font-size: 1.5rem;">Add Project</h3>
+            <form id="project-form">
+                <div class="form-group">
+                    <label class="form-label">Project Title</label>
+                    <input type="text" id="p-title" class="form-input" required placeholder="My Awesome Project">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Description</label>
+                    <textarea id="p-desc" class="form-input" rows="3" required placeholder="What tech did you use? What does it do?"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Icon Theme</label>
+                    <select id="p-icon" class="form-input">
+                        <option value="fa-code">Code</option>
+                        <option value="fa-cloud-sun">Weather</option>
+                        <option value="fa-cart-shopping">E-Commerce</option>
+                        <option value="fa-list-check">Productivity</option>
+                        <option value="fa-image">Image/Design</option>
+                        <option value="fa-gamepad">Gaming</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Link (Optional)</label>
+                    <input type="text" id="p-link" class="form-input" placeholder="https://..." value="#">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-outline" style="padding: 10px 20px; font-size: 0.9rem;" id="close-modal-btn">Cancel</button>
+                    <button type="submit" class="btn" style="padding: 10px 20px; font-size: 0.9rem;">Add Project</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
